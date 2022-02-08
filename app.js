@@ -38,7 +38,7 @@ app.get("/", function(req,res) {
 
     const options = {
         method: "POST",
-        auth: "lissa:1285d8dc985d5d6ce553dfedafa7d023-us5"
+        auth: "API KEY"
     }
 
     const request = https.request(url, options, function(response) {
